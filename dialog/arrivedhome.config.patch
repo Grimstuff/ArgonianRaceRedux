@@ -1,0 +1,35 @@
+[
+   {
+      "op":"add",
+      "path":"/beacon/argonian",
+      "value":{
+         "default":[
+            "You honor me, please speak.",
+            "Can this one help you?",
+            "I erect the spine of greeting.",
+            "Yes, honored host?",
+			"What do you ask of me?",
+			"Your turn to talk, ours to listen.",
+			"You have need of a loyal servant?",
+			"What assistance do you require friend?"
+			
+         ]
+      }
+   },
+   {
+      "op":"add",
+      "path":"/rent/argonian",
+      "value":{
+         "default":[
+            "I erect the spine of offering.",
+            "This one thanks for for everything. Please take this..",
+			"I found this today and thought you would like it.",
+			"For all you have done, take this.",
+			"Three blessings to you, you have our thanks.",
+			"Thank you for this dwelling. Please have this offering.",
+			"It's no sweetroll, but this one has a gift for you",
+			"We work hard for you. Ease your burden,"
+         ]
+      }
+   }
+]

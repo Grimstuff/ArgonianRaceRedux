@@ -1,0 +1,46 @@
+{
+  "objectName" : "argoniantotem",
+  "colonyTags" : ["argonian","argonianvillage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 75,
+  "description" : "A thin carved log of wood with some markings on it.",
+  "shortdescription" : "Argonian Carved Totem",
+  "race" : "argonian",
+
+  "apexDescription" : "It looks like some sort of totem. I wonder what the markings represent.",
+  "avianDescription" : "Argonians seem to enjoy making these sorts of totems.",
+  "floranDescription" : "Totem markss what?",
+  "glitchDescription" : "Curious. I wonder what this totem is supposed to represent.",
+  "humanDescription" : "This looks like some sort of primitve totem thing.",
+  "hylotlDescription" : "Is this totem some sort of marker?",
+  "novakidDescription" : "Ain't got no idea what this stick is for.",
+  "argonianDescription" : "Totems like these can serve many uses in Saxhleel culture.",
+  "dunmerDescription" : "Some sort of primitive marker or something?",
+  "khajiitDescription" : "Argonian totem stick. Khajiit feels urge to play with dangling cloth.",
+  
+  "inventoryIcon" : "argoniantotemicon.png",
+  "orientations" : [
+    {
+      "image" : "argoniantotem.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "argoniantotem.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

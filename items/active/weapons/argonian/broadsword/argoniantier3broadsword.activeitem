@@ -1,0 +1,53 @@
+{
+  "itemName" : "argoniantier3broadsword",
+  "price" : 540, 
+  "level" : 3,  
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A fine titanium blade crafted in the Argonian racial style.",
+  "shortdescription" : "Flint Titanium Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "argoniantier3broadsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argoniantier3broadsword.png"
+  },	
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [ 0.6, 1.75]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
+    }
+  },
+
+  "baseWeaponRotation" : 15,    
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 8.425
+  },
+
+  "palette" : "/items/active/weapons/colors/tier3melee.weaponcolors",  
+  
+  "altAbilityType" : "spinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

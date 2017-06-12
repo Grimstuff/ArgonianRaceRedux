@@ -1,0 +1,51 @@
+{
+  "itemName" : "argonianstarter",
+  "price" : 120, 
+  "level" : 1,  
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A broken flint sword. It looks like it's been through a lot.",
+  "shortdescription" : "Broken Flint Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "argonianstarter.png",
+  
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argonianstarter.png"
+  },	
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [ 0.6, 1.75]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
+    }
+  },
+  
+  "baseWeaponRotation" : 15,  
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 7.5
+	
+  },
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+  "altAbilityType" : "spinslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

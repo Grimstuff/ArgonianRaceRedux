@@ -1,0 +1,52 @@
+[
+  { "op" : "add", 
+    "path" : "/scriptConfig/merchant/categories/argonian", 
+    "value" : ["genericarmour", "basicmerchant", "randomguns", "randomswords", "argonianfurniture", "argonianarmour", "glitcharmour", "humaningredients" ] 
+  },
+  { "op" : "add",
+    "path" : "/items/argonian",
+    "value" : 
+    [ [0, [ {
+		"head" : [
+          { "name" : "plainhoodhead", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } },
+          { "name" : "argonianheadjewel", "parameters" : { "colorIndex" : 0 } },
+          { "name" : "hornpolish", "parameters" : { "colorIndex" : 0 } }
+        ],
+		"back" : [
+          { "name" : "survivalgearback", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "wizardback", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "pirateback", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "mrclausback", "parameters" : { "colorIndex" : 0 } },
+          { "name" : "pirateback", "parameters" : { "colorIndex" : 0 } }, 
+		  { "name" : "pirateback", "parameters" : { "colorIndex" : 0 } }
+        ],
+        "chest" : [
+          { "name" : "argonianpeasantchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "argonianguardchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "argoniancommonerchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "argonianpriestchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+		  
+		  
+          { "name" : "merchantchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 	  
+          { "name" : "merchantchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 	  
+          { "name" : "argonianpriestchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "wizardchest", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }
+        ],
+        "legs" : [
+          { "name" : "argonianpeasantlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "argonianguardlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "argoniancommonerlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "argonianpriestlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+		  
+		  
+          { "name" : "craftsmenlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "merchantlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "merchantlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "noblelegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }, 
+          { "name" : "wizardlegs", "parameters" : { "colorIndex" : [4, 5, 6, 8, 11] } }
+        ]
+		} 
+		] ]
+    ]
+  }
+]

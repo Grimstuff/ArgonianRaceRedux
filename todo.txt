@@ -1,0 +1,20 @@
+
+Planned:
+
+Establish a library of Argonian objects
+Unify object color pallet into marsh wood colors.
+Create Argonian Villiage.
+Create Argonian 3+ tier armors
+Make Argonian Ship
+	
+
+Randa Ideas:
+
+Guar Vehicle
+Guar ship pet
+
+	
+NPCs/Dungeons Confirmed working:
+
+Tenants
+Wandering Merchants

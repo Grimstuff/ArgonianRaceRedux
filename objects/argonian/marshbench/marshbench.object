@@ -1,0 +1,56 @@
+{
+  "objectName" : "marshbench",
+  "colonyTags" : ["argonian","argonianvillage"],    
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "description" : "A rustic bench made of mostly unrefined wood.",
+  "shortdescription" : "Marsh Bench",
+  "race" : "argonian",
+
+  "apexDescription" : "Though this bench looks rough, it was constructed with care.",
+  "avianDescription" : "I suppose the Argonians prefer functionality over looks.",
+  "floranDescription" : "Bench ssmell of good wood, well grown.",
+  "glitchDescription" : "Charmed. There is a certain aesthetic touch amidst its crude design.",
+  "humanDescription" : "Looks like a bench you might see on the porch of an old cabin.",
+  "hylotlDescription" : "How do you mess up a bench?",
+  "argonianDescription" : "We like to keep the simple things in life simple.",
+  "dunmerDescription" : "I suppose this is a bench. It looks like I'd get a splinter if I sat on it.",
+  "khajiitDescription" : "Why make a bench that's so hard.",    
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,  
+  
+  "inventoryIcon" : "marshbenchicon.png",
+  "orientations" : [
+    {
+      "image" : "marshbench.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-13, 22], // Right
+        [5, 22] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "marshbench.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-5, 22], // Left
+        [13, 22] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

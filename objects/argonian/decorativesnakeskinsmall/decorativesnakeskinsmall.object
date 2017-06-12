@@ -1,0 +1,38 @@
+{
+  "objectName" : "decorativesnakeskinsmall",
+  "colonyTags" : ["argonian","argonianvillage","pretty"],
+  "rarity" : "Common",
+  "description" : "A small decorative tribal snakeskin.",
+  "shortdescription" : "Small Decorative Snakeskin",
+  "race" : "argonian",
+  "category" : "decorative",
+  "price" : 250,
+
+  "apexDescription" : "A cool painted snakeskin. How primitive.",
+  "avianDescription" : "Such a display of a dead reptilian painted by reptilians seems almost barbaric.",
+  "floranDescription" : "Floran want sssnakessskin to add to collection back home.",
+  "glitchDescription" : "Repulsed. I hope they don't skin their own for these.",
+  "humanDescription" : "There are few things more awesome than painted snakeskins. Argonians must mean business!",
+  "hylotlDescription" : "Just repulsive.",
+  "argonianDescription" : "This skin isn't too impressive in size, but it is still beautiful.",
+  "dunmerDescription" : "I suppose this was a smaller catch.",
+  "khajiitDescription" : "This skin is smaller, but Khajiit still does not like.",
+
+  "inventoryIcon" : "decorativesnakeskinsmallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "decorativesnakeskinsmall.png:<color>",
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0] ]
+    },
+    {
+      "dualImage" : "decorativesnakeskinsmall.png:<color>",
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1], [-1, 1] ]
+    }
+  ]
+}

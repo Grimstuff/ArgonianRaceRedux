@@ -1,0 +1,45 @@
+{
+  "itemName" : "argoniantier1spear",
+  "price" : 450,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A rudimentary spear. Argonian hunters made these in the field.",
+  "shortdescription" : "Flint Iron Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,  
+  "itemTags" : ["weapon","melee","spear"],  
+  
+  "inventoryIcon" : "argoniantier1spear.png",  
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argoniantier1spear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },  
+  
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],  
+  
+  "elementalType" : "physical",  
+  
+  "aimOffset" : -1.0,  
+  
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 11.11
+  },
+
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+
+  "altAbilityType" : "flurry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
+

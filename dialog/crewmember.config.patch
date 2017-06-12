@@ -1,0 +1,15 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/argonian",
+		"value": {
+			"default": [
+				"This uniform pulls on my scales.",
+				"It's amazing to explore the Firmament like this..",
+				"It's a void, but I don't feel Sithis' presence.",
+				"So, what is our quest today?",
+				"I don't recognize any of these signs."
+			]
+		}
+	}
+]

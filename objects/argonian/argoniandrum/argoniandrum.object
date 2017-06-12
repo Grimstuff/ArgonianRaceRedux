@@ -1,0 +1,62 @@
+{
+  "objectName" : "argoniandrum",
+  "colonyTags" : ["Argonian","arginianvillage","musical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 75,
+  "description" : "A round drum with a rough leather face.",
+  "shortdescription" : "Guar Skin Drum",
+  "race" : "argonian",
+
+  "apexDescription" : "A musical drum. Seems to be of Argonian make.",
+  "avianDescription" : "The Avian prefer the sound of a gong.",
+  "floranDescription" : "Not as good as Floran drumsss",
+  "glitchDescription" : "Unimpressed. A basic instrument. It appears to produce a single sound.",
+  "humanDescription" : "A bongo drum!",
+  "hylotlDescription" : "A crude instrument, but I suppose the depends on the player.",
+  "novakidDescription" : "A dang old drum.",
+  "argonianDescription" : "I've heard drums like these used in village dances before.",
+  "dunmerDescription" : "A drum Argonians use to make thier 'music.",
+  "khajiitDescription" : "Khakiit would like to play.",  
+
+  "inventoryIcon" : "argoniandrumicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "argoniandrum.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+
+  "sounds" : [ "/sfx/objects/florandrum2.ogg" ],
+
+  "npcToy" : {
+    "influence" : [
+      "drum",
+      "drumComplete"
+    ],
+    "defaultReactions" : {
+      "drum" : [
+        [1.0, "drum"]
+      ],
+      "drumComplete" : [
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.5, 0.0],
+    "preciseStandPositionRight" : [1.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

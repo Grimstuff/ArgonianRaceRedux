@@ -1,0 +1,37 @@
+{
+  "objectName" : "marshbonetable",
+  "colonyTags" : ["argonian","argonianvillage","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 110,
+  "description" : "A thin table with large bone legs.",
+  "shortdescription" : "Marsh Bone Table",
+  "race" : "argonian",
+
+  "apexDescription" : "A very basic table. The legs are made of bone.",
+  "avianDescription" : "A table of poor quality.",
+  "floranDescription" : "Table have woodwormss, yum!",
+  "glitchDescription" : "Unimpressed. A very shoddy table, likely built by a peasant.",
+  "humanDescription" : "This table is in poor condition.",
+  "hylotlDescription" : "This table could use repairs.",
+  "novakidDescription" : "The wood is rottin' away.",
+  "argonianDescription" : "Table made in Saxhleel style.",
+  "dunmerDescription" : "Crude table with bones for legs.",
+  "khajiitDescription" : "Bones for legs? A peculiar table.",
+
+  "inventoryIcon" : "marshbonetableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "marshbonetable.png:<color>",
+	  
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

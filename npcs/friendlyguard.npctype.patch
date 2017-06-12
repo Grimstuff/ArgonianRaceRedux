@@ -1,0 +1,13 @@
+[
+	{ "op" : "add",
+		"path" : "/scriptConfig/dialog/hail/argonian",
+		"value" : {
+			"default" : [
+				"We keep the peace.",
+				"I wasn't slacking off, I swear.",
+				"I keep the area clear of enemies.",
+				"Being a guard is great. Lots of time for thinking."
+			]
+		}
+	}
+]

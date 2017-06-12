@@ -1,0 +1,20 @@
+[  
+  {  
+    "op":"add",
+    "path":"/hail/argonian",
+    "value":{  
+      "default":[  
+        "Watch yourself, outlander.",
+        "Go in peace.",
+        "Respect our ways.",
+        "We are not fangless outlander.",
+        "I never forget a scent.",
+        "Let us know if you see ill-doers.",
+        "I'm super tough, better not cross me.",
+        "Hi! I mean... HSSsss.",
+        "We welcome you, but also watch you.",
+        "Respect us, and we shall respect you."
+      ]
+    }
+  }
+]

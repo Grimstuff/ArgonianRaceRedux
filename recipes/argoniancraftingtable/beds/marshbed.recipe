@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cottonwool", "count" : 1 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : { "item" : "marshbed", "count" : 1 },
+  "groups" : [ "argoniancraftingtable", "craftingfurniture", "beds", "all" ]
+}

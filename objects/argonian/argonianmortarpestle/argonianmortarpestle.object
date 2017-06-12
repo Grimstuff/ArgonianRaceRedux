@@ -1,0 +1,46 @@
+{
+  "objectName" : "argonianmortarpestle",
+  "colonyTags" : ["argonian","argonianvillage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "A large bowl with a stick in it.",
+  "shortdescription" : "Large Mortal and Pestle",
+  "race" : "argonian",
+
+  "apexDescription" : "Some sort of mixing device.",
+  "avianDescription" : "Looks like it's used to mix or mash things up..",
+  "floranDescription" : "What are Lizardsss making in thissss?.",
+  "glitchDescription" : "Curious. I've never seen a mortal and pestle this large before.",
+  "humanDescription" : "A big bowl with a big stick in it.",
+  "hylotlDescription" : "This mortal and pestle seems a little large for just herbs.",
+  "novakidDescription" : "This some sorta churner?",
+  "argonianDescription" : "Mortal and pestle for grinding things.",
+  "dunmerDescription" : "This mortal pestle seems a bit large for alchemical purposes.",
+  "khajiitDescription" : "Much moon surgar could be ground in this.",  
+
+  "inventoryIcon" : "argonianmortarpestleicon.png",
+  "orientations" : [
+    {
+      "image" : "argonianmortarpestle.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "argonianmortarpestle.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

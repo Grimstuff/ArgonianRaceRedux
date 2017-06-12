@@ -1,0 +1,47 @@
+[
+  { "op" : "add", "path" : "/metadata/anchor/-", "value" : "tradingcaravanargonian" },
+  { "op" : "add", "path" : "/metadata/anchor/-", "value" : "banditcampargonian" },
+  { "op" : "add", "path" : "/tiles/-", "value" : {
+    "value" : [20, 120, 0, 255],
+    "comment" : "Argonian merchant",
+    "brush" : [ [ "npc",
+      {
+        "kind" : "npc",
+        "species" : "argonian",
+        "typeName" : "wanderingmerchant",
+		// "seed" : "stable",
+        "parameters" : {
+			"scriptConfig" : {
+				"merchant" : {
+				"categories" : { "default" : [ "humanclothes" ] },
+				"numItems" : 10 
+				}
+			}
+      }
+    }
+    ] ]
+  } },
+  { "op" : "add", "path" : "/tiles/-", "value" : {
+    "value" : [10, 120, 0, 255],
+    "comment" : "Argonian bandit",
+    "brush" : [ [ "npc",
+      {
+        "kind" : "npc",
+        "species" : "argonian",
+        "typeName" : "bandit",
+        // "seed" : "stable",		
+        "parameters" : { "persistent" : true }
+      }
+    ] ]
+  } },
+  { "op" : "add", "path" : "/parts/-", "value" : {
+    "name" : "tradingcaravanargonian", 
+	"rules" : [ ],
+    "def" : [ "image", [ "tradingcaravanargonian.png", "tradingcaravanargonian-objects.png" ] ]
+  } },
+  { "op" : "add", "path" : "/parts/-", "value" : {
+    "name" : "banditcampargonian", 
+	"rules" : [ ],
+    "def" : [ "image", [ "banditcampargonian.png", "banditcampargonian-objects.png" ] ]
+  } }
+]

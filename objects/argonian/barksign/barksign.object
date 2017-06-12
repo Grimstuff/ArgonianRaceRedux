@@ -1,0 +1,46 @@
+{
+  "objectName" : "barksign",
+  "colonyTags" : ["argonian","argonianvillage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "Some thick bark with a hand painted on it.",
+  "shortdescription" : "Marsh Bark Sign",
+  "race" : "argonian",
+
+  "apexDescription" : "A wood slab with a hand symbol painted onto the surface.",
+  "avianDescription" : "A thick bark slab with a creepy hand on it.",
+  "floranDescription" : "Sssign on bark. Whaatsss for?",
+  "glitchDescription" : "Indifferent. A slab of wood with some marking crudely painted on it..",
+  "humanDescription" : "Big chunk of wood with a hand painted on it.",
+  "hylotlDescription" : "I wonder what this hand symbol represents.",
+  "novakidDescription" : "What in the world is this big chuncka bark for?",
+  "argonianDescription" : "Marking totem of lands where Saxhleel dwell.",
+  "dunmerDescription" : "A slab of bark with some poorly painted symbol on it.",
+  "khajiitDescription" : "Wooden slab. Khajiit wonders if paint is of hand or trees.",  
+
+  "inventoryIcon" : "barksignicon.png",
+  "orientations" : [
+    {
+      "image" : "barksign.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "barksign.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

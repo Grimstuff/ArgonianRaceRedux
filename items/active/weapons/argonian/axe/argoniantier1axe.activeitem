@@ -1,0 +1,43 @@
+{
+  "itemName" : "argoniantier1axe",
+  "price" : 450,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A basic axe crudely crafted with iron and flint.",
+  "shortdescription" : "Flint Iron Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+  
+  "inventoryIcon" : "argoniantier1axe.png",  
+  
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argoniantier1axe.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 6,
+    "damageConfig" : {
+      "knockback" : 15
+    }
+  },
+
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

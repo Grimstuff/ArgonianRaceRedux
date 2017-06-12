@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "decorativesnakeskinsmall",
+    "count" : 1
+  },
+  "groups" : [ "argoniancraftingtable", "craftingfurniture", "decoration", "all" ]
+}

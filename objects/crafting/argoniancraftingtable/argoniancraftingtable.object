@@ -1,0 +1,52 @@
+{
+  "objectName" : "argoniancraftingtable",
+  "colonyTags" : ["crafting"],
+  "printable" : false,
+  "price" : 200,  
+  "rarity" : "Uncommon",
+  "category" : "crafting",  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingargonian.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Argonian Crafting Table",
+        "subtitle" : "^#b9b5b2;Marsh creations!",
+        "icon" : {
+          "file" : "/interface/crafting/argoniancraftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "argoniancraftingtable" ]
+  },
+
+  "description" : "Temporary table for crafting Argonian weapons and furniture before Argonian village generation.",
+  "shortdescription" : "^orange;Argonian Crafting Table^white;", 
+  "race" : "generic",    
+  
+  "apexDescription" : "A crude crafting table for Argonian gear.",
+  "avianDescription" : "A crafting table for Argonian weapons and furniture.",
+  "floranDescription" : "Table for making lizard thingsss.",
+  "glitchDescription" : "Interested. This crafting table looks to be for making Argonian gear.",
+  "humanDescription" : "I'm not scared of some DIY. Let's do this.",
+  "hylotlDescription" : "A crude crafting table for crafting the gear of the Argonians. It's quite beautiful in it's simplicity.",
+  "novakidDescription" : "A crafting table for makin' stuff for them new Lizard folks.",
+  "argonianDescription" : "A crafting table I can use to make Saxhleel weapons and furniture.",
+
+  "inventoryIcon" : "argoniancraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "argoniancraftingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}

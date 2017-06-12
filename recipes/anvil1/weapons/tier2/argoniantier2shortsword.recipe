@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 3 },
+	{ "item" : "plantmatter", "count" : 2 }
+  ],
+  "output" : { "item" : "argoniantier2shortsword", "count" : 1 },
+  "groups" : [ "craftinganvil", "argoniancraftingtable", "weapons", "all" ]
+}

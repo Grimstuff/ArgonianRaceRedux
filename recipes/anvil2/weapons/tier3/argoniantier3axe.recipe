@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 1 },
+	{ "item" : "plantmatter", "count" : 3 }	
+  ],
+  "output" : { "item" : "argoniantier3axe", "count" : 1 },
+  "groups" : [ "craftinganvil2", "argoniancraftingtable", "weapons", "all" ]
+}

@@ -1,0 +1,25 @@
+[
+  { "op" : "add",
+    "path" : "/items/argonian",
+    "value" : [
+      [0, [ {
+        "chest" : [
+          { "name" : "argoniancommonerchest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "argonianguardchest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "argonianpeasantchest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "argonianpriestchest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "noblechest", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+          { "name" : "peasantchest", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }		  
+        ],
+        "legs" : [
+          { "name" : "argoniancommonerlegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "argonianguardlegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "argonianpeasantlegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "argonianpriestlegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "noblelegs", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }, 
+          { "name" : "peasantlegs", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }		  
+        ]
+      } ] ]
+    ]
+  }
+]

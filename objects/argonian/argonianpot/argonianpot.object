@@ -1,0 +1,38 @@
+{
+  "objectName" : "argonianpot",
+  "colonyTags" : ["argonian","argonianvillage","pretty"],
+  "rarity" : "Common",
+  "description" : "A mud clay pot with some ethnic markings.",
+  "shortdescription" : "Argonian Pot",
+  "race" : "argonian",
+  "category" : "breakable",
+  "price" : 50,
+
+  "apexDescription" : "A crude rough pot.",
+  "avianDescription" : "It appears this is used to store something.",
+  "floranDescription" : "Pot too sssmall to store much water.",
+  "glitchDescription" : "Neutral. A simple pot. Likely made from clay.",
+  "humanDescription" : "A little pot, it looks like clay.",
+  "hylotlDescription" : "What is stored in this pot, I wonder...",
+  "novakidDescription" : "A simple pot for a simple meal.",
+  "argonianDescription" : "The markings on this pot show a Saxhleel family.",
+  "dunmerDescription" : "You won't see me drinking anything out of that pot.",
+  "khajiitDescription" : "Argonian pot, not worth much.",
+
+  "inventoryIcon" : "argonianpoticon.png",
+  "orientations" : [
+    {
+      "image" : "argonianpot.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "claypotshard" } ],
+  "smashDropPool" : "smashMoney",
+  "breakDropPool" : "smashMoney"
+}

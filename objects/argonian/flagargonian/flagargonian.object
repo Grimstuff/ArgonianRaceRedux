@@ -1,0 +1,55 @@
+{
+  "objectName" : "flagargonian",
+  "colonyTags" : ["argonian"],  
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+
+  "description" : "A flag with an Argonian visage. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Argonian Flag",
+  "race" : "argonian",
+
+  "apexDescription" : "An Argonian flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This Argonian flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Argonian flag makess good point to teleport back to ussing teleporter!",
+  "glitchDescription" : "Observant. The material of this Argonian flag could be used as a bookmark for teleportation.",
+  "humanDescription" : "This Argonian flag can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This Argonian flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this Argonian flag for quick teleportin'.",
+  "argonianDescription" : "A flag to represent the Saxhleel struggle. I could return to it at any time using my teleportation spell.",
+  "dunmerDescription" : "A flag of the Argonians. I can mark this to recall to later if I should ever want to teleport here.",
+  "khajiitDescription" : "Argonian flag. Khajiit can mark this for recall should need arise to teleport back..",  
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",  
+  
+  "inventoryIcon" : "flagargonianicon.png",
+  "orientations" : [
+    {
+      "image" : "flagargonian.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagargonian.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}  

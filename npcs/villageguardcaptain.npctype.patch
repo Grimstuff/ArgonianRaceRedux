@@ -1,0 +1,71 @@
+[
+	{
+		"op":"add",
+		"path":"/items/argonian",
+		"value":[
+      [0, [
+          {
+            "head" : [ { "name" : "argoniantier1head", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "argoniantier1chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "argoniantier1pants", "parameters" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npctungstenbow"
+            ],
+            "alt" : [
+              "commonlargeshield"
+            ]		
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "argoniantier2head", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "argoniantier2chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "argoniantier2pants", "parameters" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npctungstenbow"
+            ],
+            "alt" : [
+              "commonlargeshield"
+            ]		
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "argoniantier3head", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "argoniantier3chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "argoniantier3pants", "parameters" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npctungstenbow"
+            ],
+            "alt" : [
+              "commonlargeshield"
+            ]		
+          }
+        ] ]
+    ]
+	}
+]

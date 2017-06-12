@@ -1,0 +1,11 @@
+[
+   {
+      "op":"add",
+      "path":"/species/argonian",
+      "value":{
+         "aiFrames":"argonianai.png",
+         "portraitFrames":"portraits/argonianportrait.png",
+         "staticFrames":"staticargonian.png"
+      }
+   }
+]

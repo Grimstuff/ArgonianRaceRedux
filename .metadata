@@ -1,0 +1,11 @@
+{
+  "author" : "Sabboth, OrangeBlueZ, and Grimmers",
+  "description" : "[i]Argonian race for Starbound 1.0. Explore the firmament as a child of the Hist.[/i]\n\nThis is an update and continuation of the amazing work by Sabboth with the original \nArgonian Race Mod. The goal of this mod is to get as close to 100% parity with the vanilla races as possible. It's fairly close. \n\n[h1]Core features:[/h1]\n\n- Character sprite with animated tails and split body colors. \n- Many horn and feather styles. \n- Respawn animation. \n- Namegen. \n- Argonian themed clothing \n- Argonian themed tier 1-3 armor. \n- Some custom furniture. \n- Argonian tenants and some NPCs. \n- Custom Inspect texts. \n- Custom NPC dialogue. \n\n[h1]Supplimental Features:[/h1]\n\n- Some legacy Argonian racial weapons which can be made at a temporary Argonian Crafting Table. Currently buggy and expected to change however. \n- [strike]Includes a custom Argonian codex tab with a few selections of Argonian-focused lorebooks. [/strike]\n\nCustom codex tab is now included in an extra supplimental mod availiable here:\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=813797002\n\n[h1]Credits:[/h1]\n\nSabboth Ochoa for the original mod and his amazing sprite work and the permission to use it. This mod is just an update of his work. \n\nAdditional credits go to OrangeBlueZ who initially updated the mod for Upbeat Giraffe. His files were invaluable reference.\n\nArgonians, The Elder Scrolls, and all other trademarks belong to Bethesda Softworks and Zenimax Media; the creators of the deep fantasy world from which this mod is based.",
+  "friendlyName" : "Argonian Race Redux",
+  "includes" : [],
+  "link" : "steam://url/CommunityFilePage/740694177",
+  "name" : "argonian",
+  "requires" : [],
+  "steamContentId" : "740694177",
+  "version" : "1.0.5"
+}

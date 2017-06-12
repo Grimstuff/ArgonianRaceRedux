@@ -1,0 +1,44 @@
+[
+   {
+      "op":"add",
+      "path":"/attack/argonian",
+      "value":{
+         "default":[
+            "Xhuth!",
+			"Unwelcome it is.",
+            "The prey.. approaches.",
+            "This scent is foul",
+            "Be gone!",
+			"Go away, wretch!",
+			"Your life is mine!",
+			"Death is upon you",
+			"Grab him!"
+         ]
+      }
+   },
+   {
+      "op":"add",
+      "path":"/killedTarget/argonian",
+      "value":{
+         "default":[
+            "It is dead.",
+            "Die and suffer!",
+            "Rip it apart!",
+            "Saxhleel is victorious!"
+         ]
+      }
+   },
+   {
+      "op":"add",
+      "path":"/lostTarget/argonian",
+      "value":{
+         "default":[
+            "The prey has escaped.",
+            "Where did they go?",
+            "You can't sneak from me.",
+            "This one will remember your scent.",
+			"They're over here."
+         ]
+      }
+   }
+]

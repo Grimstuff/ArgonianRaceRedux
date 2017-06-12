@@ -1,0 +1,71 @@
+{
+  "objectName" : "marshthatchdoor",
+  "colonyTags" : ["argonian","argonianvillage","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 95,
+  "description" : "A door made out of woven thatch.",
+  "shortdescription" : "Marsh Thatch Door",
+  "race" : "argonian",
+
+  "apexDescription" : "A humble wooden door.",
+  "avianDescription" : "A simple door with an iron handle.",
+  "floranDescription" : "Sssimple tree door.",
+  "glitchDescription" : "Explanation. A simple door you would expect to see a hundred times in any village.",
+  "humanDescription" : "A basic wooden door.",
+  "hylotlDescription" : "A humble village door.",
+  "novakidDescription" : "Just a simple lookin' wooden door.",
+
+  "inventoryIcon" : "marshthatchdooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "marshthatchdoor.png:right",
+  
+  "orientations" : [
+    {
+      "image" : "marshthatchdoor.png:default",
+      "imagePosition" : [-18, 0],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-18, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "marshthatchdoor.png:default",
+      "imagePosition" : [-14, 0],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-14, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "marshthatchdoor.png"
+  },
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

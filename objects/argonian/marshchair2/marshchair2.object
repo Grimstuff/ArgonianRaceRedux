@@ -1,0 +1,39 @@
+{
+  "objectName" : "marshchair2",
+  "colonyTags" : ["argonian","argonianvillage"],   
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 75,
+  "description" : "A simple wooden chair usually used at a dinner table.",
+  "shortdescription" : "Marsh Table Chair",
+  "race" : "argonian",
+
+  "apexDescription" : "A very simple chair.",
+  "avianDescription" : "Not the most refined looking chair.",
+  "floranDescription" : "Argoniansss use good wood in chairsss.",
+  "glitchDescription" : "Indifference. Very typical Argonian craft.",
+  "humanDescription" : "Simple, but it does its job.",
+  "hylotlDescription" : "Argonians should fire their carpenters.",
+  "argonianDescription" : "These simple chairs become uncomforatable after a while.",
+  "dunmerDescription" : "This chair looks like just some planks stuck together.",
+  "khajiitDescription" : "This one doesn't understand the reason of a uncomforatable chair.",    
+
+  "inventoryIcon" : "marshchair2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "marshchair2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

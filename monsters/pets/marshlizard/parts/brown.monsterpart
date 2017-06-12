@@ -1,0 +1,9 @@
+{
+  "name" : "brown",
+  "category" : "marshlizard",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "brown.png"
+  }
+}

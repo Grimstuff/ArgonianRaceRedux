@@ -1,0 +1,56 @@
+{
+  "objectName" : "marshwallbench",
+  "colonyTags" : ["argonian","argonianvillage"],  
+  "rarity" : "Common",
+  "category" : "furniture",
+  "description" : "A makeshift bench utilizing available materials.",
+  "shortdescription" : "Marsh Wall Bench",
+  "race" : "argonian",
+  "price" : 125,  
+
+  "apexDescription" : "The untrained eye might say this bench is just a blanket draped over a log.",
+  "avianDescription" : "The blanket is a nice touch.",
+  "floranDescription" : "Floran doesn't mind sssitting on a log.",
+  "glitchDescription" : "Humored. Argonians will sit on just about anything it seems.",
+  "humanDescription" : "These Argonians really like that homey touch, don't they?",
+  "hylotlDescription" : "I guess their carpenters just gave up.",
+  "argonianDescription" : "A long decorative bench crafted from a sizable bog log.",
+  "dunmerDescription" : "These savages use logs as furniture?",
+  "khajiitDescription" : "This looks too round to sit on properly.",    
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  
+  "inventoryIcon" : "marshwallbenchicon.png",
+  "orientations" : [
+    {
+      "image" : "marshwallbench.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-12, 20], // Right
+        [4, 20] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "marshwallbench.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-4, 20], // Left
+        [12, 20] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

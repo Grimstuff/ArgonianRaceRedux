@@ -1,0 +1,60 @@
+[
+	{
+		"op":"add",
+		"path":"/items/argonian",
+		"value":[
+      [0, [
+          {
+            "head" : [ { "name" : "argoniantier1head" } ],
+            "chest" : [ { "name" : "argoniantier1chest" } ],
+            "legs" : [ { "name" : "argoniantier1pants" } ],
+            "primary" : [
+              "npcbroadsword"
+            ],
+            "sheathedprimary" : [
+              "npcassaultrifle"
+            ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "argoniantier2head" } ],
+            "chest" : [ { "name" : "argoniantier2chest" } ],
+            "legs" : [ { "name" : "argoniantier2pants" } ],
+            "primary" : [
+              "npcbroadsword"
+            ],
+            "sheathedprimary" : [
+              "npcassaultrifle"
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "argoniantier3head" } ],
+            "chest" : [ { "name" : "argoniantier3chest" } ],
+            "legs" : [ { "name" : "argoniantier3pants" } ],
+            "primary" : [
+              "npcbroadsword"
+            ],
+            "sheathedprimary" : [
+              "npcassaultrifle"
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "aviantier4head" } ],
+            "chest" : [ { "name" : "aviantier4chest" } ],
+            "legs" : [ { "name" : "aviantier4pants" } ],
+            "primary" : [
+              "npcbroadsword"
+            ],
+            "sheathedprimary" : [
+              "npcassaultrifle"
+            ]
+          }
+        ] ]
+    ]
+	}
+]

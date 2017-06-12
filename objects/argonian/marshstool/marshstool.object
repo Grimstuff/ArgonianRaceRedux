@@ -1,0 +1,40 @@
+{
+  "objectName" : "marshstool",
+  "colonyTags" : ["argonian","argonianvillage"],  
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 25,
+  "description" : "A wooden stool. What were you expecting?",
+  "shortdescription" : "Marsh Stool",
+  "race" : "argonian",
+
+  "apexDescription" : "A stool. What else is there to say?",
+  "avianDescription" : "Is it a stool, or a sawed off log?",
+  "floranDescription" : "Floran not sure if sssit on piece of wood.",
+  "glitchDescription" : "Stumped.",
+  "humanDescription" : "Well, I guess you could call it a stool.",
+  "hylotlDescription" : "Truly the most beautiful Argonian craft.",
+  "argonianDescription" : "Simple, but strong. Just as we are.",
+  "dunmerDescription" : "I dont think I even would put my feet on this.",
+  "khajiitDescription" : "Is this for feet or bottoms?",      
+
+  "inventoryIcon" : "marshstoolicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "marshstool.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

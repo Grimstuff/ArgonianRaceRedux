@@ -1,0 +1,28 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/argonian",
+		"value": {
+			"default": [
+				"Hsss!",
+				"Stop!",
+				"No ",
+				"Grahhh!",
+				"Hurt! Hurt!."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/safe/argonian",
+		"value": {
+			"default": [
+				"It is gone.",
+				"We are safe.",
+				"It is gone? Good.",
+				"Next time claws will be out.",
+				"I think I lost a scale."
+			]
+		}
+	}
+]

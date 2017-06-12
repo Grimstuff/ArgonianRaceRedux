@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "fabric", "count" : 5 },
+    { "item" : "string", "count" : 1 } 
+  ],
+  "output" : {  
+	"item" : "chestargonian2",
+	"count" : 1 
+	},  
+  "groups" : [ "argoniancraftingtable", "craftingfurniture", "storage", "all" ]
+}

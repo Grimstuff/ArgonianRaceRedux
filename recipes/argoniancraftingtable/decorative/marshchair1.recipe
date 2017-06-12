@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "marshchair1",
+    "count" : 1
+  },
+  "groups" : [ "argoniancraftingtable", "craftingfurniture", "decoration", "all" ]
+}

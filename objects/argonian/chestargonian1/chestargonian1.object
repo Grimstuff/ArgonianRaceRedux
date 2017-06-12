@@ -1,0 +1,43 @@
+{
+  "objectName" : "chestargonian1",
+  "colonyTags" : ["argonian","argonianvilliage","storage"],  
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A smooth wood chest painted in tribal Argonian fashion.",
+  "shortdescription" : "Small Marsh Chest",
+  "race" : "argonian",
+  "health" : 1.5,
+
+  "apexDescription" : "A chest! Let's look inside.",
+  "avianDescription" : "What a nice looking chest - let's see if the contents live up to its exterior.",
+  "floranDescription" : "Chessst! Floran musst sssearch!",
+  "glitchDescription" : "Anticipation. What could be inside?",
+  "humanDescription" : "A chest! Let's open it up.",
+  "hylotlDescription" : "I'm not sure I should bother searching this chest..",
+  "argonianDescription" : "These chests are often painted by the family that owns them.",
+  "dunmerDescription" : "This chest must hold some sort of primitive trinkets.",
+  "khajiitDescription" : "Ahh, a chest. Maybe Khajiit will take a peek.",
+
+  "inventoryIcon" : "chestargonian1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chestargonian1.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "bone", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "marshbonetable",
+    "count" : 1
+  },
+  "groups" : [ "argoniancraftingtable", "craftingfurniture", "decoration", "all" ]
+}

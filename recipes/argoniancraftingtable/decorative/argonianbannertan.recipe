@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "argonianbannertan",
+    "count" : 1
+  },
+  "groups" : [ "argoniancraftingtable", "craftingfurniture", "decoration", "all" ]
+}

@@ -1,0 +1,57 @@
+[
+	{
+		"op": "add",
+		"path": "/tagCriteria/argonian",
+		"value": {
+			"default": [
+				"Something feels different... I don't like it.",
+				"I liked it better before.",
+				"I don't like this change."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/argonian",
+		"value": {
+			"default": [
+				"This place is falling apart.",
+				"This dwelling is too damamged.",
+				"It should repair this house."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/argonian",
+		"value": {
+			"default": [
+				"HSsss. I thought this was my home?",
+				"I don't want to live with another.",
+				"I would prefer to live alone."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/argonian",
+		"value": {
+			"default": [
+				"This is unacceptable!",
+				"I'd rather live in the marshes than in here.",
+				"I've slept in bogs nicer than this."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/argonian",
+		"value": {
+			"default": [
+				"Enough. I'm leaving.",
+				"This place is a guar-pen. I leave.",
+				"Cold scales upon you. Goodbye."
+			]
+		}
+	}
+]

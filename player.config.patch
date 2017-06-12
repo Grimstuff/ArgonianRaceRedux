@@ -1,0 +1,19 @@
+[
+   {
+      "op":"add",
+      "path":"/species/-",
+      "value":"argonian"
+   },
+   {
+      "op":"add",
+      "path":"/defaultCodexes/argonian",
+      "value":[
+         "protectorate1",
+         "protectorate2",
+         "argonianfaith",
+         "argonianfreemanifesto",
+         "argonianlustymaid",
+         "argonianonargonians"
+      ]
+   }
+]

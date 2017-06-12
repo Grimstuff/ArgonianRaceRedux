@@ -1,0 +1,59 @@
+
+v1.0.1
+
+Fixed marsh and ash bed
+Fixed not receiving some armor recipes.
+Made argonian bench two-seatable.
+Added and adjusted recipe requirements for some items.
+Adjusted weapon and armor rarities and prices.
+Added tabs to Argonian Crafting Table interface.
+Minor text fixes and item adjustments.
+
+
+v1.0.2
+- Added 15 new horn styles and limited some hornstyles to specific sexes (males have larger and more profound horns, females more gentle and jeweled horns). Will not affect existing characters.
+- Added gender seperate namegen files using Jel names.
+- Fixed ship AI terminal not animating SAIL.
+- Changed how Argonian weapons rotate to prevent loss of quality in sprites.
+
+
+v1.0.3
+- Adjusted head sprite with more visible eyes and subtle sex dimorphism.
+- Added Argonian wandering merchants.
+- Added new furniture items:
+	Small Snakeskin Banner
+	Marsh Thatch Door
+	Guar Skin Drum
+	Small Marsh Chest
+	
+- Fixed male argonian NPCs using female greet sound.
+- Fixed hurt sounds using wrong file extension and not playing.
+- Fixed sitting misalignment on marsh lounging chair.
+- Fixed Argonian flag missing teleporter code.
+- Fixed broken recipe for marsh bench, should appear now.
+- Added colony tags to Argonian objects in prep for villages.
+- Adjusted some object prices.
+
+
+v1.0.4
+- Added new furniture items:
+	Argonian Carved Totem
+	Crocodile Totem
+	Argonian mortar and pestle
+	Bark Sign
+	Merchant Kiosk
+	Argonian Pot
+	Marsh Basket
+	Marsh Bone Table
+	Argonian Well Cover
+	Large Green Banner
+	Large Tan Banner
+
+- Updated some UI resources to reflect new head look.
+- Fixed Black Swamp to Black Marsh in race description.
+- Fixed syntax issue in ship files. (Thanks pC)
+
+
+v1.0.5
+- Added mech teleport cinematic to support 1.3 update changes.
+- Added bald/no horns hairstyle for both sexes.

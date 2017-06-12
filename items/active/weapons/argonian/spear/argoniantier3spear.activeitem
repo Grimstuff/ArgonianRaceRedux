@@ -1,0 +1,45 @@
+{
+  "itemName" : "argoniantier3spear",
+  "price" : 540,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A deadly Argonian spear with a Titanium reinforced head for extra strength.",
+  "shortdescription" : "Flint Titanium Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,  
+  "itemTags" : ["weapon","melee","spear"],  
+  
+  "inventoryIcon" : "argoniantier3spear.png",  
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argoniantier3spear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },  
+  
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],  
+  
+  "elementalType" : "physical",  
+  
+  "aimOffset" : -1.0,  
+  
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 11.11
+  },
+
+  "palette" : "/items/active/weapons/colors/tier3melee.weaponcolors",
+
+  "altAbilityType" : "flurry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
+

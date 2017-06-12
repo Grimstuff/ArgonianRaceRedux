@@ -1,0 +1,47 @@
+{
+  "objectName" : "marshbed",
+  "colonyTags" : ["argonian","argonianvillage"],  
+  "rarity" : "Common",
+  "description" : "A traditional Argonian sleeping mat originating from the settlements of Black Marsh.",
+  "shortdescription" : "Marsh Sleeping Mat",
+  "race" : "argonian",
+  "category" : "furniture",  
+  "price" : 75,  
+
+  "apexDescription" : "I'd prefer not to sleep on the ground.",
+  "avianDescription" : "Argonians sleep on these?",
+  "floranDescription" : "Floran think of worssse placesss to sssleep.",
+  "glitchDescription" : "Pity. No wonder Argonians make few technological advancements.",
+  "humanDescription" : "At least the pillows look comfy.",
+  "hylotlDescription" : "You couldn't pay me to sleep on that.",
+  "argonianDescription" : "These mats make me feel at home.",
+  "dunmerDescription" : "Is this a bed? It looks absolutely primitive.",
+  "khajiitDescription" : "Khajiit does not understand why those from swamp would want to sleep on floor.",  
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-8, 13.2],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/argonian/marshbed/marshbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "marshbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "marshbed.png:<color>",
+	  
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "objectName" : "marshchair1",
+  "colonyTags" : ["argonian","argonianvillage"],  
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 120,
+  "description" : "A cushioned chair, probably fancy by Argonian standards.",
+  "shortdescription" : "Marsh Lounging Chair",
+  "race" : "argonian",
+
+  "apexDescription" : "A chair featuring charming pillows with argonian designs on them.",
+  "avianDescription" : "These cushions are actually quite comfortable!",
+  "floranDescription" : "Floran indifferent about sssoft chair.",
+  "glitchDescription" : "Impressed. This chair expresses both comfort and aesthetics.",
+  "humanDescription" : "10/10, would sit on.",
+  "hylotlDescription" : "It's alright for Argonian-make, I suppose.",
+  "argonianDescription" : "Comforatable chairs like this can be seen in many Argonian homes.",
+  "dunmerDescription" : "This chair actually looks rather comforatable. Not that I would ever want to sit in it.",
+  "khajiitDescription" : "*purr* cushions. Khajiit would like to sit here.",  
+
+  "inventoryIcon" : "marshchair1icon.png",
+
+  "objectType" : "loungeable",  
+  "sitFlipDirection" : false,  
+  
+  "orientations" : [
+    {
+      "image" : "marshchair1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "flipImages" : true,
+      "direction" : "left",	  
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [8, 19]	  
+    },
+    {
+      "image" : "marshchair1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "sitPosition" : [-3, 19]
+    }	
+  ]
+}

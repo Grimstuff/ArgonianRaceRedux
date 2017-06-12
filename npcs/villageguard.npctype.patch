@@ -1,0 +1,68 @@
+[
+	{
+		"op":"add",
+		"path":"/items/argonian",
+		"value":[
+      [0, [
+          {
+            "head" : [ { "name" : "argoniantier1head" } ],
+            "chest" : [ { "name" : "argoniantier1chest" } ],
+            "legs" : [ { "name" : "argoniantier1pants" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcbow"
+            ],
+            "alt" : [
+              "commonsmallshield"
+            ]				
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "argoniantier2head" } ],
+            "chest" : [ { "name" : "argoniantier2chest" } ],
+            "legs" : [ { "name" : "argoniantier2pants" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcbow"
+            ],
+            "alt" : [
+              "commonsmallshield"
+            ]	
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "argoniantier3head" } ],
+            "chest" : [ { "name" : "argoniantier3chest" } ],
+            "legs" : [ { "name" : "argoniantier3pants" } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcbow"
+            ],
+            "alt" : [
+              "commonsmallshield"
+            ]	
+          }
+        ] ]
+    ]
+	}
+]

@@ -1,0 +1,85 @@
+[
+  { "op" : "add",
+    "path" : "/argonianfurniture",
+    "value" : [
+      [ 0, [
+		  { "item" : { "name" : "ashbed" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "marshbed" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "marshbench" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "marshchair1" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "marshchair2" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "marshstool" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "marshwallbench" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "decorativesnakeskin" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "decorativesnakeskinsmall" }, "rarity" : 0.06 },
+		  { "item" : { "name" : "decorativetanner" }, "rarity" : 0.06 }
+      ] ]
+    ]
+  },
+  { "op" : "add",
+    "path" : "/argonianarmour",
+    "value" : [
+[0, [
+      { "item" : { "name" : "argoniantier1chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1pants" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "argoniantier1chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2pants" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "argoniantier1chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3pants" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "argoniantier1chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4pants" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "argoniantier1chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier1pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier2pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "argoniantier3pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier4pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5achest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5ahead" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5apants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5mchest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5mhead" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5mpants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5schest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5shead" }, "rarity" : 0.1 },
+      { "item" : { "name" : "aviantier5spants" }, "rarity" : 0.1 }
+      ] ]
+    ]
+  }
+]

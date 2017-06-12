@@ -1,0 +1,17 @@
+[
+   {
+      "op":"add",
+      "path":"/speciesShips/argonian",
+      "value":[
+         "/ships/argonian/argonianT0.structure",
+         "/ships/argonian/argonianT1.structure",
+         "/ships/argonian/argonianT2.structure",
+         "/ships/argonian/argonianT3.structure",
+         "/ships/argonian/argonianT4.structure",
+         "/ships/argonian/argonianT5.structure",
+         "/ships/argonian/argonianT6.structure",
+         "/ships/argonian/argonianT7.structure",
+         "/ships/argonian/argonianT8.structure"
+      ]
+   }
+]

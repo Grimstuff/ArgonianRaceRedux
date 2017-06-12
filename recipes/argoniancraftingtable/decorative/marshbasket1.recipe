@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wicker", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "marshbasket1",
+    "count" : 1
+  },
+  "groups" : [ "argoniancraftingtable", "craftingfurniture", "decoration", "all" ]
+}

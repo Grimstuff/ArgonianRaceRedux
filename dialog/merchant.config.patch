@@ -1,0 +1,88 @@
+[
+	{
+		"op": "add",
+		"path": "/merchantStart/argonian",
+		"value": {
+			"default": [
+				"Can I interest you in something?",
+				"Greetings, any interest in my goods?",
+				"A pleasure. Looking to buy something?",
+				"Buy from me. Best quality.",
+				"Goods you need? I have for right price."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/argonian",
+		"value": {
+			"default": [
+				"Please come back again.",
+				"Thank you for your patronage.",
+				"Warm sun upon you customer.",
+				"We are pleased to have done business.",
+				"Thanks for visiting my store.",
+				"Great to see you!",
+				"Let's do business again."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/argonian",
+		"value": {
+			"default": [
+				"Come outlander. I have what you need.",
+				"Goods for you. Follow me.",
+				"Looking for goods? Best prices follow me."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/argonian",
+		"value": {
+			"default": [
+				"Can I interest you in something?",
+				"Greetings, any interest in my goods?",
+				"A pleasure. Looking to buy something?",
+				"Buy from me. Best quality.",
+				"Goods you need? I have for right price."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/argonian",
+		"value": {
+			"default" : [
+				"Can I interest you in something?",
+				"Greetings, any interest in my goods?",
+				"A pleasure. Looking to buy something?",
+				"Buy from me. Best quality.",
+				"Goods you need? I have for right price."
+			],
+			"apex" : [
+				"Can I interest you in something?",
+				"Greetings, any interest in my goods?",
+				"A pleasure. Looking to buy something?",
+				"Buy from me. Best quality.",
+				"Goods you need? I have for right price."
+			],
+			"floran" : [
+				"Can I interest you in something?",
+				"Greetings, any interest in my goods?",
+				"A pleasure. Looking to buy something?",
+				"Buy from me. Best quality.",
+				"Goods you need? I have for right price."
+			],
+			"argonian" : [
+				"Good deal, only for you Saxhleel.",
+				"Greetings marshfriend, any interest in my goods?",
+				"Welcome egg-sibling. Looking to buy something?",
+				"Buy from me, egg-sibling. Best quality.",
+				"Goods you need? I have for right price."
+			]
+		}
+	}
+]

@@ -1,0 +1,46 @@
+{
+  "objectName" : "croctotem",
+  "colonyTags" : ["argonian","argonianvillage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 125,
+  "description" : "A large reptile's skull placed on a pike.",
+  "shortdescription" : "Croc Totem",
+  "race" : "argonian",
+
+  "apexDescription" : "It appears to be a reptile skull placed on a pike.",
+  "avianDescription" : "Argonians often display carcases as trophies.  What a crude practice.",
+  "floranDescription" : "Sskull makess good decoration.",
+  "glitchDescription" : "Appalled. These Argonians display the bones of animals in such a violent manner.",
+  "humanDescription" : "Is that a crocodile head on a pike?",
+  "hylotlDescription" : "I wonder what this totem represents.",
+  "novakidDescription" : "Starin' at this thing gives me the jitters.",
+  "argonianDescription" : "A totem of a successfull hunt it looks like.",
+  "dunmerDescription" : "What a strange skull. I wonder where it came from.",
+  "khajiitDescription" : "This totem gives khajiit the shivers.",  
+
+  "inventoryIcon" : "croctotemicon.png",
+  "orientations" : [
+    {
+      "image" : "croctotem.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "croctotem.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "marshkiosk",
+  "colonyTags" : ["argonian","argonianvillage","commerce"],
+  "rarity" : "Common",
+  "description" : "A market stall made up of some tied together logs.",
+  "shortdescription" : "Marsh Kiosk",
+  "race" : "argonian",
+  "category" : "decorative",
+  "price" : 120,
+
+  "apexDescription" : "This market stall looks pretty rickety.",
+  "avianDescription" : "Avian have stalls simular to this.. but not quite so primitive.",
+  "floranDescription" : "Lizard men ssseell from here.",
+  "glitchDescription" : "Indifferent. Some wood fashioned together into a kiosk.",
+  "humanDescription" : "I guess this is an Argonian merchant stall.",
+  "hylotlDescription" : "Market stall belonging to an Argonian Merchant.",
+  "novakidDescription" : "This here looks like a market stall.",
+  "argonianDescription" : "A marshwood marketstall. Wonder if anything good is available.",
+  "dunmerDescription" : "They must sell feathers or something here.",
+  "khajiitDescription" : "Khajiit sees many things that could be taken.",    
+
+  "inventoryIcon" : "marshkioskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "marshkiosk.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

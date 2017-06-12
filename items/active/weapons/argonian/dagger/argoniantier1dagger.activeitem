@@ -1,0 +1,80 @@
+{
+  "itemName" : "argoniantier1dagger",
+  "price" : 450,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A crude Argonian dagger designed to tear instead of cut.",
+  "shortdescription" : "Flint Iron Dagger",
+  "tooltipKind" : "sword",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+  "inventoryIcon" : "argoniantier1dagger.png",
+
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argoniantier1dagger.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
+    }
+  },  
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "aimOffset": 0,  
+
+  "primaryAbilityType" : "meleeslash",
+  "primaryAbility" : {
+    "scripts": [
+      "/items/active/weapons/melee/meleeslash.lua"
+    ],  
+    "class": "MeleeSlash",	
+    "fireTime" : 0.27,
+    "baseDps" : 7.5,
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockbackRange" : 10,
+      "timeoutGroup" : "primary"
+    },	
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 5,
+        "weaponOffset" : [0.3, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : -20,
+        "weaponRotation" : -5,
+        "weaponOffset" : [0.3, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -135,
+        "weaponRotation" : 55,
+        "weaponOffset" : [0.3, 2.5],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }	
+  },
+  
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

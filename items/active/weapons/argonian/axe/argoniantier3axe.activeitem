@@ -1,0 +1,43 @@
+{
+  "itemName" : "argoniantier3axe",
+  "level" : 3, 
+  "price" : 540,
+  "maxStack" : 3,
+  "rarity" : "common",
+  "description" : "Titanium reinforced flint axe of excellent craftsmanship.",
+  "shortdescription" : "Flint Titanium Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+  
+  "inventoryIcon" : "argoniantier3axe.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argoniantier3axe.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  }, 
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical", 
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 6,
+    "damageConfig" : {
+      "knockback" : 15
+    }
+  },
+
+  "palette" : "/items/active/weapons/colors/tier3melee.weaponcolors",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

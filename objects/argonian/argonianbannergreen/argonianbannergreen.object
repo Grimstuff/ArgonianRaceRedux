@@ -1,0 +1,39 @@
+{
+  "objectName" : "argonianbannergreen",
+  "colonyTags" : ["argonian","argoniancastle","pretty"],
+  "rarity" : "Common",
+  "description" : "A large banner with a symbol painted on it.",
+  "shortdescription" : "Large Green Banner",
+  "race" : "argonian",
+  "category" : "decorative",
+  "price" : 80,
+
+  "apexDescription" : "An expertly woven banner.",
+  "avianDescription" : "A decorative banner, perhaps?",
+  "floranDescription" : "Green sssilky banner.",
+  "glitchDescription" : "Interested. This banner has a strange symbol painted onto it.",
+  "humanDescription" : "That's a pretty big banner. I wonder what the symbol means.",
+  "hylotlDescription" : "This banner has been crafted with great pride. It must have meaning.",
+  "novakidDescription" : "A mighty fine banner.",
+  "argonianDescription" : "Saxhleel banner displaying family roots of the Hist.",
+  "dunmerDescription" : "Hmm. This banner is a tad impressive I suppose.",
+  "khajiitDescription" : "Curious symbol. What does it mean.",    
+
+  "inventoryIcon" : "argonianbannergreenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "argonianbannergreen.png:<color>",
+      "imagePosition" : [-22, -42],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [0, 0], [0, 0] ]
+    },
+    {
+      "dualImage" : "argonianbannergreen.png:<color>",
+      "imagePosition" : [-22, -42],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 0], [0, 0], [0, 0] ]
+    }
+  ]
+}

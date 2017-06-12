@@ -1,0 +1,35 @@
+{
+  "objectName" : "decorativetanner",
+  "colonyTags" : ["argonian","argonianvillage","pretty"],  
+  "rarity" : "Common",
+  "description" : "A painted display of expertly tanned leather.",
+  "shortdescription" : "Decorative Tanner",
+  "race" : "argonian",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "This is a waste of perfectly good leather.",
+  "avianDescription" : "This is a very interesting piece of Argonian art using uncut leather as a canvas.",
+  "floranDescription" : "Floran usually jussst hang ssskins on wall.",
+  "glitchDescription" : "Intrigue. Argonian hunters must be very prolific to afford to turn so much leather into art.",
+  "humanDescription" : "Whoa. Does this thing have a use?",
+  "hylotlDescription" : "What a boring and crude piece of 'art'.",
+  "argonianDescription" : "These are often used as freestanding walls in our humble housing.",
+  "dunmerDescription" : "It looks like a leather tanner, but used as decoration.",
+  "khajiitDescription" : "Leather used as a decoration? How strange.",
+  
+  "inventoryIcon" : "decorativetannericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "decorativetanner.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

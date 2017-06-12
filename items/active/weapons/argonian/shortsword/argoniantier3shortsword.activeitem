@@ -1,0 +1,56 @@
+{
+  "itemName" : "argoniantier3shortsword",
+  "price" : 540,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A deadly titanium reinforced blade from the deep Marshlands.",
+  "shortdescription" : "Flint Titanium Shortsword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "argoniantier3shortsword.png",
+  
+  "baseWeaponRotation" : 10,  
+  
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "argoniantier3shortsword.png"
+  },
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [ 0.3, -0.35 ]
+          }
+        },
+        "swoosh": {
+          "properties": {
+            "offset": [ 2.75, -2]
+          }
+        }
+      }
+    },
+	"sounds" : {
+      "fire" : [ "/sfx/melee/swing_shortsword.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 6
+  },
+
+  "palette" : "/items/active/weapons/colors/tier3melee.weaponcolors",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
