@@ -11,11 +11,10 @@
   "tenants" : [{
       "spawn" : "npc",
       "species" : "argonian",
-      "type" : "villager",
-      "overrides" : {
-        "damageTeamType" : "friendly"
-      }
-    }
+      "type" : "generictenant",
+      "overrides": {
+       }
+     }
   ],
   
   "rent" : {

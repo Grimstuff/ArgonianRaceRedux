@@ -25,23 +25,10 @@
   "orientations" : [
     {
       "image" : "marshthatchdoor.png:default",
-      "imagePosition" : [-18, 0],
+      "imagePosition" : [-16, 0],
       "renderLayer" : "Object+5",
-      "animationPosition" : [-18, 0],
-      "direction" : "left",
-      "flipImages" : true,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "top" ]
-    },
-    {
-      "image" : "marshthatchdoor.png:default",
-      "imagePosition" : [-14, 0],
-      "renderLayer" : "Object+5",
-      "animationPosition" : [-14, 0],
-      "direction" : "right",
-
-      "spaceScan" : 0.1,
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4] ],
       "anchors" : [ "bottom", "top" ]
     }
   ],
@@ -53,11 +40,11 @@
   "animationCustom" : {
     "sounds" : {
       "open" : {
-        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
+        "pool" : [ "/sfx/objects/woodendoor_open.ogg" ],
         "rangeMultiplier" : 0.5
       },
       "close" : {
-        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
+        "pool" : [ "/sfx/objects/woodendoor_close.ogg" ],
         "rangeMultiplier" : 0.5
       }
     }
@@ -65,6 +52,7 @@
   "animationParts" : {
     "door" : "marshthatchdoor.png"
   },
+  "animationPosition" : [-16, 0],
 
   "inputNodes" : [ [0, 4] ],
   "outputNodes" : [ [0, 0] ]

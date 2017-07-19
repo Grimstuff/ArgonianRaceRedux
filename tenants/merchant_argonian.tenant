@@ -13,11 +13,10 @@
   "tenants" : [{
       "spawn" : "npc",
       "species" : "argonian",
-      "type" : "merchant",
-      "overrides" : {
-        "damageTeamType" : "friendly"
-      }
-    }
+      "type": "merchanttenant",
+      "overrides": {
+       }
+     }
   ],
 
   "rent" : {

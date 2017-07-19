@@ -14,10 +14,9 @@
       "spawn" : "npc",
       "species" : "argonian",
       "level" : 4,
-      "type" : "friendlyguard",
-      "overrides" : {
-        "damageTeamType" : "friendly"
-      }
+      "type": "friendlyguardtenant",
+      "overrides": {
+       }
     }
   ],
 

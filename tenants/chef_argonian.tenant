@@ -13,9 +13,8 @@
     {
       "spawn": "npc",
       "species": "argonian",
-      "type": "chefmerchant",
+      "type": "chefmerchanttenant",
       "overrides": {
-        "damageTeamType" : "friendly"
        }
      }
    ],

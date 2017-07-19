@@ -46,7 +46,7 @@
     "/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
-  "shipPetType" : "petsnake",
+  "shipPetType" : "marshlizard",
   "spawnOffset" : [2, -1],
 
   "chatPortrait" : "/ai/portraits/argonianportrait.png:yell.1",

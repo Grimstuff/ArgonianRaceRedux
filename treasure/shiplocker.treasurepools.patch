@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/argonianStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "starterTreasure"}
+      ]
+    }]]
+  }
+]

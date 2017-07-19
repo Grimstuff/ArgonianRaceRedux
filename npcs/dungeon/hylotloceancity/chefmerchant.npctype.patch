@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/merchant/categories/argonian",
+    "value": [
+      "chefmerchant"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/merchant/start/argonian",
+    "value": {
+      "default": [
+        "Good food, for you.",
+        "Hungry?",
+        "Please, try my produce. Harvested myself.",
+        "Interest you in some very fine supplies?",
+        "Fresh food for all your cooking needs!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/merchant/end/argonian",
+    "value": {
+      "default": [
+        "Come back again.",
+        "This was pleasurable. Come again.",
+        "We would enjoy your return."
+      ]
+    }
+  }
+]
