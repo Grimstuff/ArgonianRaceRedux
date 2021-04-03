@@ -1,0 +1,169 @@
+[
+	[ //test for manytabs mod to use simple codex addition
+		{ "op": "test", "path": "/manytabs", "value": true },
+		{
+			"op": "add",
+			"path": "/paneLayout/speciesTabs/buttons/-",
+			"value": {
+			"position": [4, 5],
+			"baseImage": "/interface/mt_codex/tab_argonian.png",
+			"baseImageChecked": "/interface/mt_codex/tab_argonian_select.png",
+			"pressedOffset": [0, 0],
+			"data": { "species": "argonian" }
+			}
+		}
+	],
+	[ //test for manytabs mod to use complex codex addition
+		{ "op": "test", "path": "/manytabs", "inverse": true },
+		{
+			"op": "replace",
+			"path": "/paneLayout/background/fileHeader",
+			"value": "/interface/v6codex/header.png"
+		},
+		{
+			"op": "replace",
+			"path": "/paneLayout/background/fileBody",
+			"value": "/interface/v6codex/body_blank.png"
+		},
+		{
+			"op": "replace",
+			"path": "/paneLayout/background/fileFooter",
+			"value": "/interface/v6codex/footer.png"
+		},
+		{
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/0/position/1",
+			"value": 278
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/1/position/1",
+			"value": 253
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/2/position/1",
+			"value": 228
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/3/position/1",
+			"value": 203
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/4/position/1",
+			"value": 178
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/5/position/1",
+			"value": 153
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/6/position/1",
+			"value": 128
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/selectLabel/position/1",
+			"value": 303
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/close/position",
+			"value": [423, 323]
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/bgShine/file",
+			"value": "/interface/v6codex/shine.png"
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/bgShine/position",
+			"value": [0, 0]
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/scrollBG/file",
+			"value": "/interface/v6codex/scrollbg.png"
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/scrollArea/rect/3",
+			"value": 300
+		  },
+
+		  {
+			"op": "replace",
+			"path": "/paneLayout/browseBG/file",
+			"value": "/interface/v6codex/browsebg.png"
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/titleLabel/position/1",
+			"value": 303
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/pageText/position/1",
+			"value": 297
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/pageText/wrapWidth",
+			"value": 220
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/pageNum/position",
+			"value": [343,31]
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/pageLabel/position/1",
+			"value": 31
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/nextButton/position/0",
+			"value": 377
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/6/baseImage",
+			"value": "/interface/codex/tab_argonian.png"
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/6/baseImageChecked",
+			"value": "/interface/codex/tab_argonian_select.png"
+		  },
+		  {
+			"op": "replace",
+			"path": "/paneLayout/speciesTabs/buttons/6/data/species",
+			"value": "argonian"
+		  },
+		  {
+			"op": "add",
+			"path": "/paneLayout/speciesTabs/buttons/-",
+			"value": {
+			  "position": [
+				4,
+				103
+			  ],
+			  "baseImage": "/interface/codex/tab_other.png",
+			  "baseImageChecked": "/interface/codex/tab_other_select.png",
+			  "pressedOffset": [
+				0,
+				0
+			  ],
+			  "data": {
+				"species": "other"
+			  }
+			}
+		} 
+	]
+]

@@ -1,38 +1,46 @@
 
-v1.0.1
+PLANNED
 
-Fixed marsh and ash bed
-Fixed not receiving some armor recipes.
-Made argonian bench two-seatable.
-Added and adjusted recipe requirements for some items.
-Adjusted weapon and armor rarities and prices.
-Added tabs to Argonian Crafting Table interface.
-Minor text fixes and item adjustments.
+????? v1.2.0
+- Added custom Argonian ship design.
+- Added Argonian dungeons with bad guy Argonians with lore.
+- Created Argonian 3+ tier armors
+- Added Guar Vehicle?
+
+????? v1.1.0
+- Argonian villages Added to game.
+- Custom lizard ship pet. (will only appear for new characters or with save editing)
+
+INDEV
+
+?v1.0.8
+- Added new Argonian outpost NPC to visitor pool.
+- Fixed some hairstyles that had transparent pixels.
+- Created tileset of all Argonian objects in prep for villages.
+- Fixed a few namegen entries meshing together as one.
+- Removed awkward double use of 'native' in race description.
+- Fixed mismatched used of color and colour on chargen.
+- Updated some old graphics to use 72dpi standard. Pretty much only affects the modding side of things.
+- Incorporated codex tab back into main mod. Uses smart check to see if Many Tabs is installed.
+- Changed codex graphic to many-tabs standard. (thanks jss2a98aj)
+- Fixed missing UI graphic on Argonian Crafting Table.
+
+OLD
+
+v1.0.7
+- Some minor codex changes to prevent text leaving window on vanilla codex files.
+- Now supports V6's Many Tabs mod when using the supplemental codex mod.
+- Added two small argonian codex books.
+- Removed some old unused code.
 
 
-v1.0.2
-- Added 15 new horn styles and limited some hornstyles to specific sexes (males have larger and more profound horns, females more gentle and jeweled horns). Will not affect existing characters.
-- Added gender seperate namegen files using Jel names.
-- Fixed ship AI terminal not animating SAIL.
-- Changed how Argonian weapons rotate to prevent loss of quality in sprites.
+v1.0.6
+- Fixed Argonian chef and other merchant and tenant property types.
 
 
-v1.0.3
-- Adjusted head sprite with more visible eyes and subtle sex dimorphism.
-- Added Argonian wandering merchants.
-- Added new furniture items:
-	Small Snakeskin Banner
-	Marsh Thatch Door
-	Guar Skin Drum
-	Small Marsh Chest
-	
-- Fixed male argonian NPCs using female greet sound.
-- Fixed hurt sounds using wrong file extension and not playing.
-- Fixed sitting misalignment on marsh lounging chair.
-- Fixed Argonian flag missing teleporter code.
-- Fixed broken recipe for marsh bench, should appear now.
-- Added colony tags to Argonian objects in prep for villages.
-- Adjusted some object prices.
+v1.0.5
+- Added mech teleport cinematic to support 1.3 update changes.
+- Added bald/no horns hairstyle for both sexes.
 
 
 v1.0.4
@@ -54,19 +62,38 @@ v1.0.4
 - Fixed syntax issue in ship files. (Thanks pC)
 
 
-v1.0.5
-- Added mech teleport cinematic to support 1.3 update changes.
-- Added bald/no horns hairstyle for both sexes.
+v1.0.3
+- Adjusted head sprite with more visible eyes and subtle sex dimorphism.
+- Added Argonian wandering merchants.
+- Added new furniture items:
+	Small Snakeskin Banner
+	Marsh Thatch Door
+	Guar Skin Drum
+	Small Marsh Chest
+	
+- Fixed male argonian NPCs using female greet sound.
+- Fixed hurt sounds using wrong file extension and not playing.
+- Fixed sitting misalignment on marsh lounging chair.
+- Fixed Argonian flag missing teleporter code.
+- Fixed broken recipe for marsh bench, should appear now.
+- Added colony tags to Argonian objects in prep for villages.
+- Adjusted some object prices.
 
-v1.0.6
-- Fixed Argonian chef and other merchant and tenant property types.
 
-v1.0.7
-- Some minor codex changes to prevent text leaving window on vanilla codex files.
-- Now supports V6's Many Tabs mod when using the supplemental codex mod.
-- Added two small argonian codex books.
-- Removed some old unused code.
+v1.0.2
+- Added 15 new horn styles and limited some hornstyles to specific sexes (males have larger and more profound horns, females more gentle and jeweled horns). Will not affect existing characters.
+- Added gender seperate namegen files using Jel names.
+- Fixed ship AI terminal not animating SAIL.
+- Changed how Argonian weapons rotate to prevent loss of quality in sprites.
 
-v1.0.8?
-- Added new lizard ship pet (will only appear for new characters or with save editing)
-- Created tileset of all Argonian objects in prep for villages.
+
+v1.0.1
+
+Fixed marsh and ash bed
+Fixed not receiving some armor recipes.
+Made argonian bench two-seatable.
+Added and adjusted recipe requirements for some items.
+Adjusted weapon and armor rarities and prices.
+Added tabs to Argonian Crafting Table interface.
+Minor text fixes and item adjustments.
+

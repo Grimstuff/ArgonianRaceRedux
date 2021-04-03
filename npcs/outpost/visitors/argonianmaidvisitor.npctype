@@ -1,0 +1,47 @@
+{
+  "type" : "argonianmaidvisitor",
+  "baseType" : "outpostvisitor",
+
+  "identity" : {
+    "name" : "Lifts-Her-Tail",
+    "gender" : "female",
+	"hairGroup" : "hair",
+    "hairType" : "5",
+    "bodyDirectives" : "?replace=e0975c=8a8239?replace=c0824f=767031?replace=a85636=615c28?replace=6f2919=3c3919",
+    "emoteDirectives" : "?replace=e0975c=8a8239?replace=c0824f=767031?replace=a85636=615c28?replace=6f2919=3c3919",
+	"hairDirectives" : "?replace=09b700=ca358b?replace=079300=ad367a",
+    "personalityIdle" : "idle.5",
+    "personalityArmIdle" : "idle.5"	
+  },
+
+  "scriptConfig" : {
+
+    "personalities" : [
+        [1.0, { "personality" : "flirty", "reactions" : {} }]
+    ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I know I left that duster somewhere.",
+			"You know that play wasn't exactly how it happened..",
+			"Where did I leave that polish at."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "hornpolish", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "argonianmaidchest", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "argonianmaidlegs", "parameters" : { "colorIndex" : 5 } } ]
+          }
+        ] ]
+    ]
+  }
+}

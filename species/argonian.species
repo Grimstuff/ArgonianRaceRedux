@@ -4,12 +4,12 @@
 	"charCreationTooltip" : {
 		"title" : "argonian",
 		"subTitle" : "Hs",
-		"description" : "Argonians are a race of reptilian people native to the Black Marsh region of their native planet Nirn. Enigmatic and intelligent, they possess many natural abilities that suit their swampy homeland."
+		"description" : "Argonians are a race of reptilian people native to the Black Marsh region of the planet Nirn. Enigmatic and intelligent, they possess many natural abilities that suit their swampy homeland."
 	},
 	
 	"nameGen" : [ "/species/jelmalenamegen.config:names", "/species/jelfemalenamegen.config:names" ],
 	"ouchNoises" : [ "/sfx/humanoid/floranhurt_male1.ogg", "/sfx/humanoid/floranhurt_female1.ogg" ],
-	"charGenTextLabels" : [ "Scale colour", "Horn style", "Shirt", "Legwear", "Belly colour", "Feather color", "Shirt color", "Legwear colour", "ARGONIAN", "Personality" ],
+	"charGenTextLabels" : [ "Scale color", "Horn style", "Shirt", "Legwear", "Belly color", "Feather color", "Shirt color", "Legwear colour", "ARGONIAN", "Personality" ],
 	"skull" : "/humanoid/argonian/dead.png",
 	"effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=8af062FF?replace=31a6ffFF=40bf21FF",
 	"defaultBlueprints" : {

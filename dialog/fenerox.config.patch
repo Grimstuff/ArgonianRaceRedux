@@ -1,14 +1,14 @@
 [
 	{
 		"op": "add",
-		"path": "/converse/default/felin",
+		"path": "/converse/default/argonian",
 		"value": [
 			"New person. Thick tail. Quite exciting!",
 			"Odd person. Hopefully nice. Feeling cautious!",
 			"Weird person. Not Fenerox. Being polite!",
 			"Meeting stranger. Being friendly. New experience!",
 			"Odd person. Saying hello. Not Fenerox?",
-			"Friendly stranger. Similar face. Cautiously optimistic!",
+			"Friendly stranger. Cautiously optimistic!",
 			"New stranger. Not confident. Saying hello!",
 			"Unknown person. Scaley skin. Looks weird."
 		]

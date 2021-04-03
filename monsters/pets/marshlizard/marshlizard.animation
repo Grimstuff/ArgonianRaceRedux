@@ -12,15 +12,15 @@
             "frames" : 1
           },
           "run" : {
-            "frames" : 5,
-            "cycle" : 0.25,
+            "frames" : 6,
+            "cycle" : 0.3,
             "mode" : "loop"
           },
           "blink" : {
             "frames" : 1
           },
           "walk" : {
-            "frames" : 8,
+            "frames" : 6,
             "cycle" : 0.6,
             "mode" : "loop"
           },
